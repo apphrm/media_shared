@@ -3,8 +3,1364 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="https://hrm.dnd.vn/media/css/vendors.bundle.bootstrap.css" rel="stylesheet" />
 </head>
-<body>
+<body class="p-2">
+    <style type="text/css">
+        .template-card {
+            transition: .3s ease-in-out;
+            height: 100%;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+            border: 1px solid #eee
+        }
+
+            .template-card picture {
+                width: 100%;
+                overflow: hidden
+            }
+
+        @media (min-width: 1200px) {
+            .template-card picture {
+                width: 380px
+            }
+        }
+
+        .template-card .details {
+            padding: 40px;
+            border-left: 1px solid #eee
+        }
+
+        @media (max-width: 1200px) {
+            .template-card .details {
+                padding: 30px;
+                border-top: 1px solid #eee;
+                border-left: 0
+            }
+        }
+
+        .template-card h2 {
+            margin: 0;
+            padding: 0 0 25px 0;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: Poppins,sans-serif
+        }
+
+            .template-card h2 a {
+                color: #035195
+            }
+
+                .template-card h2 a::after {
+                    position: absolute;
+                    inset: 0;
+                    z-index: 1;
+                    content: ""
+                }
+
+        .template-card p {
+            color: #555;
+            margin: 0 0 25px 0;
+            overflow: hidden
+        }
+
+        .template-card .buttons {
+            position: relative;
+            z-index: 2
+        }
+
+        @media (max-width: 1200px) {
+            .template-card .buttons {
+                text-align: center
+            }
+        }
+
+        .template-card .buttons a {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 30px;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: .3px;
+            border-radius: 4px;
+            color: #023b6d;
+            transition: all .3s;
+            flex-grow: 1;
+            flex-basis: auto;
+            justify-content: center;
+            border: 1px solid #cfd4e4
+        }
+
+            .template-card .buttons a:hover {
+                border-color: #009bd9;
+                color: #009bd9
+            }
+
+            .template-card .buttons a.download {
+                margin-left: 12px
+            }
+
+        @media (max-width: 575px) {
+            .template-card .buttons a {
+                font-size: 14px;
+                padding: 8px 22px
+            }
+        }
+
+        .template-card:hover {
+            box-shadow: 0 0 40px rgba(2,59,109,.1)
+        }
+
+            .template-card:hover h2 a {
+                color: #009bd9
+            }
+    </style>
+
+    <div class="row no-gutters gy-5 mb-5 loadmore">
+        <div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp" class="img-fluid" alt="Arsha - Free Corporate Bootstrap HTML Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/" rel="bookmark">Arsha - Free Corporate Bootstrap HTML Template</a></h2><p>Arsha is a clean and modern business Bootstrap template designed specifically for startup, apps and IT services. You will be able to showcase your content on mobile devices such as smartphones, tablets and all types of devices. Arsha's design ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Arsha/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/iPortfolio/iPortfolio-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/iPortfolio/iPortfolio-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/iPortfolio/iPortfolio-bootstrap-website-template-md.webp" class="img-fluid" alt="iPortfolio - Bootstrap Portfolio Websites Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/" rel="bookmark">iPortfolio - Bootstrap Portfolio Websites Template</a></h2><p>iPortfolio is a modern personal CV and portfolio HTML template. It's creative, minimal and clean design. iPortfolio can be used for many purposes starting from minimal portfolios, freelancers, graphic designers, illustrators, photographers and ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/iPortfolio/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/MyResume/MyResume-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/MyResume/MyResume-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/MyResume/MyResume-bootstrap-website-template-md.webp" class="img-fluid" alt="MyResume - Bootstrap Resume and Portfolio Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/free-html-bootstrap-template-my-resume/" rel="bookmark">MyResume - Bootstrap Resume and Portfolio Template</a></h2><p>MyResume is a creative resume and portfolio Bootstrap template. It's best suited for digital professionals, designers, programmers, photographers, freelancers any other who wants to showcase his work online. MyResume is perfect to promote your ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/MyResume/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/free-html-bootstrap-template-my-resume/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Gp/Gp-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Gp/Gp-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Gp/Gp-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Gp - Free Multipurpose HTML Bootstrap Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/" rel="bookmark">Gp - Free Multipurpose HTML Bootstrap Template</a></h2><p>Gp is a clean and modern website template created with Bootstrap framework. It's a professional and powerful business consulting template carefully crafted for designer, artists, company, photographer, videographer, architect etc. Gp also could ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Gp/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Presento/Presento-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Presento/Presento-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Presento/Presento-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Presento - Bootstrap Corporate Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/presento-bootstrap-corporate-template/" rel="bookmark">Presento - Bootstrap Corporate Template</a></h2><p>Presento is a modern, creative and clean HTML corporate Bootstrap template. It can be used for building elegant and modern corporate websites, small business homepages, app landing pages, startup website, software &amp; SaaS company websites. Comes ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Presento/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/presento-bootstrap-corporate-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/BizLand/BizLand-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/BizLand/BizLand-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/BizLand/BizLand-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="BizLand - Bootstrap Business Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/bizland-bootstrap-business-template/" rel="bookmark">BizLand - Bootstrap Business Template</a></h2><p>BizLand is a multi purpose modern and creative corporate and agency website template. It's created with latest version of Bootstrap framework and all modern technologies like HTML5, CSS3. The amazing and professional BizLand bootstrap template ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/BizLand/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/bizland-bootstrap-business-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Medilab/Medilab-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Medilab/Medilab-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Medilab/Medilab-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Medilab - Free Medical Bootstrap Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/" rel="bookmark">Medilab - Free Medical Bootstrap Template</a></h2><p>Medilab is a clean, free, responsive bootstrap template perfect for hospital, doctors, clinic, medical, health and more. This is a fully dynamic, well structured, easy to use and beautiful free HTML5 template. This free website template developed ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Medilab/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Restaurantly/Restaurantly-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Restaurantly/Restaurantly-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Restaurantly/Restaurantly-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Restaurantly - Restaurant Website Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/restaurantly-restaurant-template/" rel="bookmark">Restaurantly - Restaurant Website Template</a></h2><p>Restaurantly is a modern restaurant Bootstrap website template. It's elegantly designed in dark mode. Prefect for restaurants, bakery, cafe, Bar, catering service, food business, personal chef portfolio website and any other food related websites. ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Restaurantly/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/restaurantly-restaurant-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Mentor/Mentor-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Mentor/Mentor-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Mentor/Mentor-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Mentor - Education Bootstrap Website Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/mentor-free-education-bootstrap-theme/" rel="bookmark">Mentor - Education Bootstrap Website Template</a></h2><p>Mentor is modern and creative education website template based on Bootstrap framework. It's perfect for any kind of education, online learning center, academy and any activities related to education.Mentor consists of well-organized components ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Mentor/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/mentor-free-education-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Kelly/Kelly-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Kelly/Kelly-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Kelly/Kelly-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Kelly - Bootstrap CV Resume HTML Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/" rel="bookmark">Kelly - Bootstrap CV Resume HTML Template</a></h2><p>Kelly is a professional, clean, flexible and customizable portfolio, resume and CV bootstrap template. It's ideal for everyone to showcase their online works. It's pretty savvy, minimal and displays your information in style and yet it remains ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Kelly/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Medicio/Medicio-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Medicio/Medicio-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Medicio/Medicio-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Medicio - Free Medical Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/medicio-free-bootstrap-theme/" rel="bookmark">Medicio - Free Medical Template</a></h2><p>Medicio is a creative and modern medical website template. It's suitable for medical &amp; health industry such as doctors, clinics, dentists, dental practice, dentist, dentistry, doctor, health, hospital and another medical &amp; health service company. ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Medicio/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/medicio-free-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Sailor/Sailor-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Sailor/Sailor-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Sailor/Sailor-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Sailor - Bootstrap Business Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/sailor-free-bootstrap-theme/" rel="bookmark">Sailor - Bootstrap Business Template</a></h2><p>Sailor is a stylish, responsive, and easy-to-use business Bootstrap template. It comes with many features and is designed for many websites, such as corporate business, portfolios, product showcases, creative agencies, business consultants, ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Sailor/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/sailor-free-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/OnePage/OnePage-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/OnePage/OnePage-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/OnePage/OnePage-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="OnePage - Multipurpose Bootstrap One Page Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/" rel="bookmark">OnePage - Multipurpose Bootstrap One Page Template</a></h2><p>OnePage is a multipurpose Bootstrap one page website template. It's a modern, clean and creative template with lots of options available for you to create any kind of website, whether it is corporate, creative agency startup business, digital ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/OnePage/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/KnightOne/KnightOne-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/KnightOne/KnightOne-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/KnightOne/KnightOne-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="KnightOne - One Page Bootstrap Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/" rel="bookmark">KnightOne - One Page Bootstrap Template</a></h2><p>KnightOne is a Bootstrap business website template. It can be use for multi purpose websites like corporate business website, marketing, agency, mobile app, software company startup, startup landing page and many more. It's clean and modern ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/KnightOne/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/eNno/eNno-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/eNno/eNno-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/eNno/eNno-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="eNno - Simple Bootstrap Landing Page Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/enno-free-simple-bootstrap-template/" rel="bookmark">eNno - Simple Bootstrap Landing Page Template</a></h2><p>eNno is a clean and modern design website template. It's multipurpose one page landing page template built for various types of websites and comes with numerous elements and features that have been created and chosen for the needs of software, ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/eNno/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/enno-free-simple-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Dewi/Dewi-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Dewi/Dewi-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Dewi/Dewi-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Dewi - Free Multi Purpose HTML Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/dewi-free-multi-purpose-html-template/" rel="bookmark">Dewi - Free Multi Purpose HTML Template</a></h2><p>Dewi is a modern multi purpose Bootstrap website template. It is specially designed for any kind of digital agency, software, sass, startup, marketing, one page and other online businesses. Powered by Bootstrap Dewi is perfect for a wide variety ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Dewi/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/dewi-free-multi-purpose-html-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Company/Company-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Company/Company-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Company/Company-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Company - Free Business Bootstrap Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/company-free-html-bootstrap-template/" rel="bookmark">Company - Free Business Bootstrap Template</a></h2><p>Company is a clean and responsive website template for corporate, business and company websites. The company template also comes with all the necessary features and can be used for building website s for consulting firms, finance, agency, ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Company/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/company-free-html-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Techie/Techie-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Techie/Techie-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Techie/Techie-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Techie - Modern Bootstrap Startup Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/techie-free-skin-bootstrap-3/" rel="bookmark">Techie - Modern Bootstrap Startup Template</a></h2><p>Techie is a modern and stylish startup agency Bootstrap website template. It is best suited for contemporary web design studio and creative agency, marketing agency, advertising agency, web designer's portfolio, creative digital design, graphic ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Techie/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/techie-free-skin-bootstrap-3/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Butterfly/Butterfly-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Butterfly/Butterfly-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Butterfly/Butterfly-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Butterfly - Free Multipurpose Bootstrap Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/butterfly-free-bootstrap-theme/" rel="bookmark">Butterfly - Free Multipurpose Bootstrap Template</a></h2><p>A clean onepage bootstrap theme for a business startup who would like to showcase a featured section of call to action combined with the power of portfolio elements. The template is well executed throughout to give a clean layout feel and to ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Butterfly/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/butterfly-free-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Bikin/Bikin-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Bikin/Bikin-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Bikin/Bikin-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Bikin - Free Bootstrap Landing Page Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/bikin-free-simple-landing-page-template/" rel="bookmark">Bikin - Free Bootstrap Landing Page Template</a></h2><p>Bikin is a clean and modern onepage website landing page template built with responsive Bootstrap framework. It's ideal for startup landing page, business corporate, SaaS, app landing page and many more.Whether you operate an agency or a freelancing ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Bikin/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/bikin-free-simple-landing-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12"><div class="template-card d-xl-flex"> <picture class="flex-shrink-0"> <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Anyar/Anyar-bootstrap-website-template-md.webp"> <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Anyar/Anyar-bootstrap-website-template-sm.webp"> <img src="https://bootstrapmade.com/content/templatefiles/Anyar/Anyar-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Anyar - Free Multipurpose One Page Bootstrap Template" width="800" height="600"> </picture><div class="details"><h2><a href="https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/" rel="bookmark">Anyar - Free Multipurpose One Page Bootstrap Template</a></h2><p>Anyar is a multipurpose website template best suited for corporate, business, portfolio, SaaS &amp; software and many more. It's easily customizable, fully responsive and support all modern browsers, devices and screen sizes. Anyar template comes ...</p><div class="buttons"> <a href="https://bootstrapmade.com/demo/Anyar/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a> <a href="https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a></div></div></div></div><div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Day/Day-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Day/Day-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Day/Day-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Day - Multipurpose HTML Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/day-multipurpose-html-template-for-free/" rel="bookmark">Day - Multipurpose HTML Template</a></h2>
+                    <p>Day is a multipurpose HTML website template for creatives. You can use it for promotion agencies, analysts, marketing, portfolio, and much more. The template is based on Bootstrap framework with the use of modern technologies.Day template is ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Day/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/day-multipurpose-html-template-for-free/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Tempo/Tempo-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Tempo/Tempo-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Tempo/Tempo-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Tempo - Free Onepage Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/" rel="bookmark">Tempo - Free Onepage Bootstrap Theme</a></h2>
+                    <p>Tempo is a modern one page, free website template created with the latest version of Bootstrap framework. Tempo can be used to build gorgeous looking website fr creative agencies, corporate, personal portfolio, creative blog et.  Tempo HTML ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Tempo/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Hidayah/Hidayah-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Hidayah/Hidayah-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Hidayah/Hidayah-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Hidayah - Bootstrap Corporate Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/" rel="bookmark">Hidayah - Bootstrap Corporate Template</a></h2>
+                    <p>Hidayah is a lightweight and professional corporate business website template. It is a clean, modern and simple template. Hidayah Bootstrap template is best suited for companies and individuals. It is specially design for business corporate, ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Hidayah/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Multi/Multi-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Multi/Multi-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Multi/Multi-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Multi - Multipurpose Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/multi-responsive-bootstrap-template/" rel="bookmark">Multi - Multipurpose Bootstrap Template</a></h2>
+                    <p>Multi is a creative multipurpose bootstrap template. It could be used for different type of sites, such as portfolio, agency, corporate and all kind of business sites. Multi website template is based on latest version of Bootstrap framework. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Multi/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/multi-responsive-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Baker/Baker-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Baker/Baker-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Baker/Baker-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Baker - One Page Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/" rel="bookmark">Baker - One Page Bootstrap Template</a></h2>
+                    <p>Baker is a creative, multipurpose free bootstrap html5 template designed for professionals and agencies. This free html5 template is suitable for any business, corporate, portfolio, blog and any kind of website. It is clean and has a professional ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Baker/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Bethany/Bethany-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Bethany/Bethany-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Bethany/Bethany-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Bethany - Free Onepage Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/" rel="bookmark">Bethany - Free Onepage Bootstrap Theme</a></h2>
+                    <p>Bethany is a stylish and unique free bootstrap template for modern web designers. It comes with clean and flat style, it fitted to you who like minimal and modern design. This free bootstrap website template is used for creative agency, portfolio, ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Bethany/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Laura/Laura-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Laura/Laura-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Laura/Laura-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Laura - Free Creative Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/laura-free-creative-bootstrap-theme/" rel="bookmark">Laura - Free Creative Bootstrap Template</a></h2>
+                    <p>Laura is a clean and responsive free portfolio website template. Laura is mobile friendly, clean code, modern layout and ready for easy customization. You can use this template for many purposes like portfolio, resume, photography portfolio ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Laura/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/laura-free-creative-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Personal/Personal-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Personal/Personal-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Personal/Personal-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Personal - Free Portfolio Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" rel="bookmark">Personal - Free Portfolio Bootstrap Template</a></h2>
+                    <p>Personal is clean, minimal and professional looking portfolio, resume and CV template. It's modern and one page design. This template is suitable for anyone who wants to have a personalized portfolio and resume website with unique style. It's ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Personal/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Delicious/Delicious-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Delicious/Delicious-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Delicious/Delicious-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Delicious - Free Restaurant Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/" rel="bookmark">Delicious - Free Restaurant Bootstrap Template</a></h2>
+                    <p>Delicious is a creative, free restaurant website template created with the Bootstrap framework. This free website template is focused for Restaurants, cafe, coffee shop, winery business and any other food related websites. It is also contained ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Delicious/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Bootslander/Bootslander-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Bootslander/Bootslander-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Bootslander/Bootslander-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Bootslander - Bootstrap Landing Page Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/" rel="bookmark">Bootslander - Bootstrap Landing Page Template</a></h2>
+                    <p>Bootslander is an elegant, modern and easy to use website landing page template built with the Bootstrap framework. It's highly suitable for app landing page, promoting software or services, startups etc. Bootslander is very easy to customize ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Bootslander/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Vesperr/Vesperr-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Vesperr/Vesperr-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Vesperr/Vesperr-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Vesperr - Creative Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/vesperr-free-bootstrap-template/" rel="bookmark">Vesperr - Creative Bootstrap Template</a></h2>
+                    <p>Vesperr is a clean, modern and stylish digital agency website template created with Bootstrap framework. It can be use by agencies, freelancers, corporate business, creative designers or any creative professionals. It comes with smooth interaction ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Vesperr/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/vesperr-free-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Selecao/Selecao-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Selecao/Selecao-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Selecao/Selecao-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Selecao - Agency Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/selecao-bootstrap-template/" rel="bookmark">Selecao - Agency Bootstrap Template</a></h2>
+                    <p>Selecao  is a creative and responsive HTML template created with Bootstrap framework. You can use it to quickly represent your company or business and list your portfolio. Designed to be used as one page website, but you can also use it as multi ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Selecao/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/selecao-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Plato/Plato-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Plato/Plato-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Plato/Plato-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Plato - Responsive Bootstrap Website Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/plato-responsive-bootstrap-website-template/" rel="bookmark">Plato - Responsive Bootstrap Website Template</a></h2>
+                    <p>Plato is a clean and professional business website template built with latest version of bootstrap framework. It's best suitable for companies, agencies, creative companies,  products or services websites.Plato website template is very easy ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Plato/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/plato-responsive-bootstrap-website-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Lumia/Lumia-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Lumia/Lumia-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Lumia/Lumia-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Lumia - Bootstrap Business Template " width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/lumia-bootstrap-business-template/" rel="bookmark">Lumia - Bootstrap Business Template </a></h2>
+                    <p>Lumia is a clean, modern, unique multipurpose responsive website template that can be used for a variety of business websites. It's best suitable for companies, agencies, creative companies, startups, individuals or small businesses to launch ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Lumia/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/lumia-bootstrap-business-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Knight/Knight-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Knight/Knight-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Knight/Knight-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Knight - Free Creative Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/knight-free-bootstrap-theme/" rel="bookmark">Knight - Free Creative Bootstrap Theme</a></h2>
+                    <p>Knight is a clean, modern, and multipurpose web template built with Bootstrap framework. This template is a one-pager that features a full height intro header. Knight  was built  for all types of agencies such as web design agency,  SEO agency ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Knight/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/knight-free-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Scaffold/Scaffold-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Scaffold/Scaffold-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Scaffold/Scaffold-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Scaffold - Clean Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/" rel="bookmark">Scaffold - Clean Bootstrap Template</a></h2>
+                    <p>Scaffold is a modern and fresh HTML website template built with bootstrap framework.  It's awesome and creative responsive HTML5 template created for business, corporate, portfolio, startup and agency websites. It is a very simple, clean and ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Scaffold/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Remember/Remember-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Remember/Remember-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Remember/Remember-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Remember - Free Multipurpose Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/" rel="bookmark">Remember - Free Multipurpose Bootstrap Template</a></h2>
+                    <p>Remember is a multipurpose one page website template designed for corporate and business websites. It's built on top of the latest version of the Bootstrap framework. Fully customizable with easy to use structure and clean and documented code.Remember ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Remember/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Eterna/Eterna-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Eterna/Eterna-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Eterna/Eterna-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Eterna - Free Multipurpose Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/" rel="bookmark">Eterna - Free Multipurpose Bootstrap Template</a></h2>
+                    <p>Eterna is an awesome responsive bootstrap website template, professionally designed for any kind websites. Eterna is coded carefully, all template files are organized and well structured so it's very customizable and developer/newbie friendly. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Eterna/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Serenity/Serenity-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Serenity/Serenity-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Serenity/Serenity-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Serenity - Bootstrap Corporate Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/serenity-bootstrap-corporate-template/" rel="bookmark">Serenity - Bootstrap Corporate Template</a></h2>
+                    <p>Serenity is a modern multipurpose website template, suitable for corporate, business, creative agency, consultancy firm websites and more. It's fully responsive bootstrap template built on Bootstrap framework, HTML5, CSS3, JavaScript and jQuery.Serenity ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Serenity/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/serenity-bootstrap-corporate-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Flattern/Flattern-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Flattern/Flattern-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Flattern/Flattern-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Flattern - Multipurpose Bootstrap Business Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/" rel="bookmark">Flattern - Multipurpose Bootstrap Business Template</a></h2>
+                    <p>Flattern is a clean, flat and professional website template created with latest version of bootstrap framework. Coming with flat, young, modern and trendy design this template will suitable for corporate business, agency,  consulting business, ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Flattern/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Maxim/Maxim-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Maxim/Maxim-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Maxim/Maxim-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Maxim - Free Onepage Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/" rel="bookmark">Maxim - Free Onepage Bootstrap Theme</a></h2>
+                    <p>Maxim is flat, modern and stylish bootstrap one page website template. It's suitable for freelancer, agency, corporate website like financial advisor, accountant, consulting firms, insurance, loan, tax help, creative people to showcase their ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Maxim/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Flexor/Flexor-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Flexor/Flexor-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Flexor/Flexor-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Flexor - Free Multipurpose Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/" rel="bookmark">Flexor - Free Multipurpose Bootstrap Template</a></h2>
+                    <p>Flexor is a modern and clean looking free single page, multiple purpose Bootstrap template. It's best suitable for creative agencies, studios, digital design agencies or other similar businesses. With Flexor, you can showcase your business in ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Flexor/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Mamba/Mamba-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Mamba/Mamba-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Mamba/Mamba-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Mamba - Free One Page Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/" rel="bookmark">Mamba - Free One Page Bootstrap Template</a></h2>
+                    <p>Mamba is a simple and creative one page website template built Bootstrap. Designed and developed with modern design trend makes Mamba a perfect starting template to create creative agency, startup website, design studio, corporate website like ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Mamba/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/SoftLand/SoftLand-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/SoftLand/SoftLand-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/SoftLand/SoftLand-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="SoftLand - Bootstrap App Landing Page Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/" rel="bookmark">SoftLand - Bootstrap App Landing Page Template</a></h2>
+                    <p>SoftLand is a modern and creative app landing HTML website template. Anyone can use this template  to showcase their apps or services. SoftLand is an ultimate responsive landing page template for anyone who is looking for app landing page, software ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/SoftLand/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Appland/Appland-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Appland/Appland-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Appland/Appland-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Appland - Free Bootstrap App landing page template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/free-bootstrap-app-landing-page-template/" rel="bookmark">Appland - Free Bootstrap App landing page template</a></h2>
+                    <p>Appland is unique and modern landing page template suitable for creating websites for mobile apps. Appland  provides minimalist creative design, highly customizable code and easy customization. Compatible with tablets, mobile phones and any ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Appland/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/free-bootstrap-app-landing-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/MyPortfolio/MyPortfolio-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/MyPortfolio/MyPortfolio-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/MyPortfolio/MyPortfolio-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="MyPortfolio - Free Portfolio Website Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/" rel="bookmark">MyPortfolio - Free Portfolio Website Template</a></h2>
+                    <p>MyPortfolio is a clean and lightweight portfolio website template. With a minimal design MyPortfolio is perfect to create beautiful online portfolios. MyPortfolio is a simple but high-quality portfolio template for creatives. Because of it's ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/MyPortfolio/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Squadfree/Squadfree-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Squadfree/Squadfree-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Squadfree/Squadfree-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Squadfree - Free Bootstrap template for creative" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/" rel="bookmark">Squadfree - Free Bootstrap template for creative</a></h2>
+                    <p>Squadfree is a free HTML site template for creatives with simple and modern layout. You can use Squadfree  to build all kind of multi purpose website like landing page, business landing page, marketing website, mobile app, software landing page, ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Squadfree/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Rapid/Rapid-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Rapid/Rapid-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Rapid/Rapid-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Rapid - Multipurpose Bootstrap Business Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/" rel="bookmark">Rapid - Multipurpose Bootstrap Business Template</a></h2>
+                    <p>Rapid is elegant and easy to use multipurpose Bootstrap template  with a modern and simplistic web design.  It will leave a solid impression on everyone that visits your website with a high chance of getting in touch with you. Rapid is a one ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Rapid/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Bocor/Bocor-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Bocor/Bocor-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Bocor/Bocor-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Bocor - Bootstrap template with nice animation" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/" rel="bookmark">Bocor - Bootstrap template with nice animation</a></h2>
+                    <p>Bocor is a modern website template created with the Bootstrap framework. It has simple sleek layout design with nice animations on scroll. It's a one page theme and can be used for multipurpose websites.Key Features:Built with latest Bootstrap ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Bocor/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/NewBiz/NewBiz-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/NewBiz/NewBiz-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/NewBiz/NewBiz-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="NewBiz - Bootstrap Corporate Business Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/newbiz-bootstrap-business-template/" rel="bookmark">NewBiz - Bootstrap Corporate Business Template</a></h2>
+                    <p>NewBiz is a responsive, creative and modern corporate business Bootstrap template. You can use the NewBiz  template for many business types like: corporate, SEO/SMO, digital marketing, consulting, digital studio, software mobile app and more. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/NewBiz/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/newbiz-bootstrap-business-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Shuffle/Shuffle-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Shuffle/Shuffle-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Shuffle/Shuffle-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Shuffle - Free Bootstrap One Page HTML Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/" rel="bookmark">Shuffle - Free Bootstrap One Page HTML Template</a></h2>
+                    <p>Shuffle is a clean and sleek one page website template built with the Bootstrap framework. Shuffle template is suitable for building all kind of business websites, companies, corporate agencies. It's fully responsive and looks perfect on any ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Shuffle/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/BizPage/BizPage-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/BizPage/BizPage-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/BizPage/BizPage-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="BizPage Bootstrap Business Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/bizpage-bootstrap-business-template/" rel="bookmark">BizPage Bootstrap Business Template</a></h2>
+                    <p>BizPage is modern, visually stunning and creative multipurpose corporate Business HTML 5 template built with Bootstrap framework.  The sectioning code structure method is used to build the BizPage theme which allows you to navigate the code ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/BizPage/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/bizpage-bootstrap-business-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Ninestars/Ninestars-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Ninestars/Ninestars-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Ninestars/Ninestars-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Ninestars - Free Bootstrap 3 theme for creative" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/" rel="bookmark">Ninestars - Free Bootstrap 3 theme for creative</a></h2>
+                    <p>Ninestars is modern one page Bootstrap HTML template for your business, agency, corporate or startup company. Ninestars is very easy to use and highly customizable. Looks awesome on tablets and mobile devices. We have included best practices ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Ninestars/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Reveal/Reveal-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Reveal/Reveal-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Reveal/Reveal-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Reveal Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/reveal-bootstrap-corporate-template/" rel="bookmark">Reveal Bootstrap Theme</a></h2>
+                    <p>Reveal is a creative business Bootstrap template. It's best suitable for businesses, company and corporate related websites. Reveal follows the latest trends and modern design ideas in the webdesign industry. Build your elegant and professional ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Reveal/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/reveal-bootstrap-corporate-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Moderna/Moderna-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Moderna/Moderna-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Moderna/Moderna-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Free Bootstrap template for corporate - Moderna" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/" rel="bookmark">Free Bootstrap template for corporate - Moderna</a></h2>
+                    <p>Moderna is a modern, unique and professional responsive HTML 5 template  for corporate business. Moderna comes with different layouts and it is perfect for building a corporate website, SaaS website, agency website. and many more. Moderna is ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Moderna/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Avilon/Avilon-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Avilon/Avilon-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Avilon/Avilon-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Avilon Bootstrap Landing Page Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/avilon-bootstrap-landing-page-template/" rel="bookmark">Avilon Bootstrap Landing Page Template</a></h2>
+                    <p>Avilon is clean, elegant and modern landing page template for Bootstrap.  This template can be used to present and promote any product like mobile app, desktop app, saas applications, digital products, software or any product that needs a single ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Avilon/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/avilon-bootstrap-landing-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Regna/Regna-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Regna/Regna-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Regna/Regna-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Regna Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/regna-bootstrap-onepage-template/" rel="bookmark">Regna Bootstrap Theme</a></h2>
+                    <p>Regna is a sleek Bootstrap 4 template designed for any type of corporate, business or agency websites. It's a one-page template with clean design, fully responsive and looks stunning on all devices. it's very easy to use and customize, comes ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Regna/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/regna-bootstrap-onepage-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/TheEvent/TheEvent-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/TheEvent/TheEvent-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/TheEvent/TheEvent-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="TheEvent - Free Event and Conference Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/theevent-conference-event-bootstrap-template/" rel="bookmark">TheEvent - Free Event and Conference Bootstrap Template</a></h2>
+                    <p>TheEvent is free website template for events, conferences and webinars. It's one page, responsive HTML template created with the latest version of Bootstrap framework. It's designed to provide detailed information about your event. TheEvent ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/TheEvent/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/theevent-conference-event-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Imperial/Imperial-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Imperial/Imperial-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Imperial/Imperial-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Imperial - Free Onepage Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/" rel="bookmark">Imperial - Free Onepage Bootstrap Theme</a></h2>
+                    <p>Imperial is a modern and creative Bootstrap one page template best suitable for creative agencies, studios, digital design agencies or other similar businesses. The header comes with full screen hero part where you can introduce your company. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Imperial/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/DevFolio/DevFolio-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/DevFolio/DevFolio-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/DevFolio/DevFolio-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="DevFolio - Bootstrap Portfolio HTML Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/" rel="bookmark">DevFolio - Bootstrap Portfolio HTML Template</a></h2>
+                    <p>DevFolio is a free portfolio website html template created with the Bootstrap framework. Whether you are a creative individual, developer or artist DevFolio will serve you well. Create a unique online portfolio, resume or just personal website ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/DevFolio/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/EstateAgency/EstateAgency-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/EstateAgency/EstateAgency-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/EstateAgency/EstateAgency-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="EstateAgency - Bootstrap Real Estate Website Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/real-estate-agency-bootstrap-template/" rel="bookmark">EstateAgency - Bootstrap Real Estate Website Template</a></h2>
+                    <p>EstateAgency is a clean and modern real estate website template created with Bootstrap framework. It's best suited for real estate agencies, independent estate brokers and realtors.  EstateAgency perfectly suits for all your needs like: listing ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/EstateAgency/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/real-estate-agency-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/eStartup/eStartup-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/eStartup/eStartup-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/eStartup/eStartup-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="eStartup - Bootstrap Landing Page Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/estartup-bootstrap-landing-page-template/" rel="bookmark">eStartup - Bootstrap Landing Page Template</a></h2>
+                    <p>eStartup is an elegant and modern Bootstrap template for creating websites for startups, apps websites and more.  It comes with many customisable and reusable elements that are designed to fit as many purposes as possible. eStartup can also ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/eStartup/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/estartup-bootstrap-landing-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/eBusiness/eBusiness-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/eBusiness/eBusiness-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/eBusiness/eBusiness-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="eBusiness Bootstrap Corporate Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/" rel="bookmark">eBusiness Bootstrap Corporate Template</a></h2>
+                    <p>eBusiness is a multipurpose business template created with Bootstrap framework.  You can use the eBusiness theme for all kind of business. Perfectly suits for companies, corporate agencies and for landing pages as well. The eBusiness template ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/eBusiness/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Folio/Folio-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Folio/Folio-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Folio/Folio-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Folio Bootstrap Portfolio Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/folio-bootstrap-portfolio-template/" rel="bookmark">Folio Bootstrap Portfolio Template</a></h2>
+                    <p>Folio is a simple, elegant and creative website template for showcase your portfolio or personal information. Folio is responsive website template created with Bootstrap 4. Clean source code and well organized files for easy to customization. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Folio/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/folio-bootstrap-portfolio-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Alstar/Alstar-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Alstar/Alstar-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Alstar/Alstar-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Alstar Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/" rel="bookmark">Alstar Bootstrap Theme</a></h2>
+                    <p>Alstar is a responsive bootstrap one page website template created with the Bootstrap framework. This template will suitable for freelancer, agency, creative people to showcase their profile or works. This template is fully responsive template ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Alstar/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Bell/Bell-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Bell/Bell-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Bell/Bell-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Bell - Free Multipurpose Bootstrap 4 Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/bell-free-bootstrap-4-template/" rel="bookmark">Bell - Free Multipurpose Bootstrap 4 Template</a></h2>
+                    <p>Bell is a single page Bootstrap 4 theme. Bell can be used for multipurpose website including Agency, Startup, Business, Factory, Real Estate, Construction, Finance, Consulting, Cleaning Service or any type of business website. Just change your ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Bell/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/bell-free-bootstrap-4-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Vlava/Vlava-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Vlava/Vlava-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Vlava/Vlava-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Vlava - Bootstrap One Page Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/" rel="bookmark">Vlava - Bootstrap One Page Template</a></h2>
+                    <p>Vlava is an impressive free one page modern bootstrap template. This website template is suitable for freelancers, agencies, creative people etc to showcase their portfolio or services.It's fully responsive and works perfectly on all devices ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Vlava/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Green/Green-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Green/Green-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Green/Green-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Green - Free one page HTML Bootstrap template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/green-free-one-page-bootstrap-template/" rel="bookmark">Green - Free one page HTML Bootstrap template</a></h2>
+                    <p>Green is a responsive HTML template perfect to promote your work or your business.This template is adapts to different screen size. It's compatible with all mobile device. We've designed this theme to be mobile optimized, fully responsive. Green ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Green/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/green-free-one-page-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Resi/Resi-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Resi/Resi-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Resi/Resi-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Resi - Bootstrap Landing Page Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/resi-free-bootstrap-html-template/" rel="bookmark">Resi - Bootstrap Landing Page Template</a></h2>
+                    <p>Resi is a clean, creative and modern responsive landing page template built with the Bootstrap framework. It's simple and clean design and anyone can use it to showcase any product or service. Resi  will suits perfectly for marketing, startups, ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Resi/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/resi-free-bootstrap-html-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/MyBiz/MyBiz-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/MyBiz/MyBiz-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/MyBiz/MyBiz-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="MyBiz - Free Business Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/mybiz-free-business-bootstrap-theme/" rel="bookmark">MyBiz - Free Business Bootstrap Theme</a></h2>
+                    <p>MyBiz is a clean and elegant free HTML5 bootstrap theme that is suitable for business websites. MyBiz  will help you to make any website like corporate, financial, professional, agency or other business.  By using MyBiz website template you ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/MyBiz/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/mybiz-free-business-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/ComingSoon/ComingSoon-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/ComingSoon/ComingSoon-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/ComingSoon/ComingSoon-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="ComingSoon - Free Under Construction Bootstrap Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/" rel="bookmark">ComingSoon - Free Under Construction Bootstrap Template</a></h2>
+                    <p>ComingSoon is a simple  free coming soon website template. It's clean, mobile friendly and fully responsive coming soon template created with the Bootstrap framework.ComingSoon  template contain countdown timer and an about section where you ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/ComingSoon/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Groovin/Groovin-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Groovin/Groovin-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Groovin/Groovin-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Groovin - Free Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/groovin-free-bootstrap-theme/" rel="bookmark">Groovin - Free Bootstrap Theme</a></h2>
+                    <p>Groovin is a modern and responsive free professional Bootstrap website template. It's suitable for freelancer, agency, corporate, consulting, creative people to showcase their products, services or works. Groovin is built with the latest bootstrap ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Groovin/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/groovin-free-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Maundy/Maundy-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Maundy/Maundy-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Maundy/Maundy-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Maundy - Free Coming Soon Bootstrap Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/" rel="bookmark">Maundy - Free Coming Soon Bootstrap Theme</a></h2>
+                    <p>Maundy is a free coming soon template built in bootstrap framework. It is fully responsive, elegant, simple, clean and mobile friendly bootstrap coming soon template. This template is based on HTML5, CSS3 and latest bootstrap framework with ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Maundy/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Valera/Valera-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Valera/Valera-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Valera/Valera-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Valera - Bootstrap One Page Theme" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/valera-free-bootstrap-theme/" rel="bookmark">Valera - Bootstrap One Page Theme</a></h2>
+                    <p>Valera is an awesome bootstrap one page website template equipped with lot of modern feature. Valera offers many possibilities which will help you to create a beautiful, stunning and unique website. It's perfect solution for any kind of business, ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Valera/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/valera-free-bootstrap-theme/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/MeFamily/MeFamily-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/MeFamily/MeFamily-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/MeFamily/MeFamily-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Me &amp; Family - Bootstrap Family Website Template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/" rel="bookmark">Me &amp; Family - Bootstrap Family Website Template</a></h2>
+                    <p>Me &amp; Family is a clean and modern design family bootstrap website template. It can be used  to create a family website. It comes with nice filterable photo gallery with lightbox support, events page and more.It's clean, lightweight and loads ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/MeFamily/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Lonely/Lonely-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Lonely/Lonely-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Lonely/Lonely-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Free HTML Bootstrap template - Lonely" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/free-html-bootstrap-template-lonely/" rel="bookmark">Free HTML Bootstrap template - Lonely</a></h2>
+                    <p>Lonely a light and elegant personal portfolio and resume website template. Lonely is designed for showcasing short biography or something like simple personal site. It will help you to presents your self and your resume more smartly and easily. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Lonely/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/free-html-bootstrap-template-lonely/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/WeBuild/WeBuild-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/WeBuild/WeBuild-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/WeBuild/WeBuild-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Free bootstrap coming soon template with countdown" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/" rel="bookmark">Free bootstrap coming soon template with countdown</a></h2>
+                    <p>WeBuild is a bootstrap coming soon template. Simple, flat and minimal design with jQuery countdown and polygonal background. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/WeBuild/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Siimple/Siimple-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Siimple/Siimple-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Siimple/Siimple-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Free bootstrap landing page template" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/free-bootstrap-landing-page/" rel="bookmark">Free bootstrap landing page template</a></h2>
+                    <p>Siimple is a bootstrap landing page template. Minimal and above the fold content is the main  key of 'Siimple' template. You can use it for app showcase, selling single product or capture potential customer via newsletter /sign up form. It's ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Siimple/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/free-bootstrap-landing-page/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-12">
+            <div class="template-card d-xl-flex">
+
+                <picture class="flex-shrink-0">
+                    <source type="image/webp" media="(min-width: 480px) and (max-width: 768px)" srcset="https://bootstrapmade.com/content/templatefiles/Amoeba/Amoeba-bootstrap-website-template-md.webp">
+                    <source type="image/webp" media="(max-width: 479px), (min-width: 769px)" srcset="https://bootstrapmade.com/content/templatefiles/Amoeba/Amoeba-bootstrap-website-template-sm.webp">
+                    <img src="https://bootstrapmade.com/content/templatefiles/Amoeba/Amoeba-bootstrap-website-template-md.webp" loading="lazy" class="img-fluid" alt="Free one page bootstrap template - Amoeba" width="800" height="600">
+                </picture>
+
+                <div class="details">
+                    <h2><a href="https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/" rel="bookmark">Free one page bootstrap template - Amoeba</a></h2>
+                    <p>Amoeba is one page bootstrap template with premium taste! Built using the latest version of  Bootstrap with modern flat style design. The code is well structured and you can easily edit and adapt it with your current or new website. ...</p>
+                    <div class="buttons">
+                        <a href="https://bootstrapmade.com/demo/Amoeba/" rel="nofollow" class="demo" target="_blank"><span title="Live Demo">Live Demo</span></a>
+                        <a href="https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/#download" rel="nofollow" class="download"><span title="Download">Free Download</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
