@@ -21,64 +21,6 @@
       "900px"
     ]
 
-  ],
-  "ol_local": [
-    "https://admina.pages.dev",
-    [
-      {
-        "shr": "../media_shared",
-        "jcs": "https://hrm.dnd.vn",
-        "fnc": "hellodat.pages.dev"
-      },
-      {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
-      }
-    ]
-  ],
-  "ol_ok": [
-    "http://localhost:5114/index.html",
-    [
-      {
-        "shr": "https://apphrm.github.io/media_shared",
-        "jcs": "http://192.168.1.91:10996",
-        "fnc": ""
-      },
-      {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
-      }
-    ]
-  ],
-  "ol_debug": [
-    "http://localhost:5114/index.html",
-    [
-      {
-        "shr": "https://apphrm.github.io/media_shared",
-        "jcs": "https://hrm.dnd.vn",
-        "fnc": "hellodat.dnd.vn"
-      },
-      {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
-      }
-    ]
-  ],
-
-
-  "ol": [
-    "https://admina.pages.dev",
-    [
-      {
-        "shr": "https://apphrm.github.io/media_shared",
-        "jcs": "https://hrm.dnd.vn",
-        "fnc": "hellodat.pages.dev"
-      },
-      {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
-      }
-    ]
   ]
 
 

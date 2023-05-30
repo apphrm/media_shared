@@ -22,22 +22,6 @@
     ]
 
   ]
-  ,
-
-
-  "ol": [
-    "https://admina.pages.dev",
-    [
-      {
-        "shr": "https://apphrm.github.io/media_shared",
-        "jcs": "https://hrm.dnd.vn",
-        "fnc": "hellodat.dnd.vn"
-      },
-      {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
-      }
-    ]
-  ]
+ 
 
 }
