@@ -1,23 +1,18 @@
 {
-  "hed": [ 1 ]
-  ,
+  "hed": [ 1 ],
   "sli": [
     [
       0,
       {},
       "http://templatelab.com/wp-content/uploads/2022/11/Health-and-Safety-Dashboard-Template-TemplateLab.com_-scaled.jpg"
-    ]
-
-    ,
+    ],
 
     [
       1,
       {},
       "https://www.youtube.com/watch?v=Ga6RYejo6Hk",
       "900px"
-    ]
-    
-    ,
+    ],
 
     [
       2,
@@ -26,5 +21,66 @@
       "900px"
     ]
 
+  ],
+  "ol_local": [
+    "https://admina.pages.dev",
+    [
+      {
+        "shr": "../media_shared",
+        "jcs": "https://hrm.dnd.vn",
+        "fnc": "hellodat.pages.dev"
+      },
+      {
+        "mnu": "JS_nhapxuat",
+        "arg": {}
+      }
+    ]
+  ],
+  "ol_ok": [
+    "http://localhost:5114/index.html",
+    [
+      {
+        "shr": "https://apphrm.github.io/media_shared",
+        "jcs": "http://192.168.1.91:10996",
+        "fnc": ""
+      },
+      {
+        "mnu": "JS_nhapxuat",
+        "arg": {}
+      }
+    ]
+  ],
+  "ol_debug": [
+    "http://localhost:5114/index.html",
+    [
+      {
+        "shr": "https://apphrm.github.io/media_shared",
+        "jcs": "https://hrm.dnd.vn",
+        "fnc": "hellodat.dnd.vn"
+      },
+      {
+        "mnu": "JS_nhapxuat",
+        "arg": {}
+      }
+    ]
+  ],
+
+
+  "ol": [
+    "https://admina.pages.dev",
+    [
+      {
+        "shr": "https://apphrm.github.io/media_shared",
+        "jcs": "https://hrm.dnd.vn",
+        "fnc": "hellodat.dnd.vn"
+      },
+      {
+        "mnu": "JS_nhapxuat",
+        "arg": {}
+      }
+    ]
   ]
+
+
+
 }
