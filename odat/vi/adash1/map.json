@@ -34,8 +34,12 @@
         "fnc": "hellodat.pages.dev"
       },
       {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
+        "mnu": "JS_payrollonline",
+        "arg": {
+          "f": "1",
+          "s": 2,
+          "demo": "1"
+        }
       }
     ]
   ]
