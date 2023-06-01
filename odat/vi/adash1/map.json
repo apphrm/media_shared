@@ -17,7 +17,7 @@
     [
       2,
       {},
-      "<iframe src='https://apphrm.github.io/media_shared/odat/vi/adash1/listvideo.html' title='W3Schools Free Online Web Tutorials'></iframe>",
+      "<iframe lzy_src='https://apphrm.github.io/media_shared/odat/vi/adash1/listvideo.html' title='W3Schools Free Online Web Tutorials'></iframe>",
       "100%",
       "100vh"
     ]
