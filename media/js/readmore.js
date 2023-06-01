@@ -108,6 +108,25 @@
                     iframe.contentWindow.document.write(this.responseText);
                     iframe.contentWindow.document.close();
                     //
+
+                    if (document.fullscreenEnabled ||
+                        document.webkitFullscreenEnabled ||
+                        document.mozFullScreenEnabled ||
+                        document.msFullscreenEnabled) {
+
+                        // which element will be fullscreen
+                        // Do fullscreen
+                        if (iframe.requestFullscreen) {
+                            iframe.requestFullscreen();
+                        } else if (iframe.webkitRequestFullscreen) {
+                            iframe.webkitRequestFullscreen();
+                        } else if (iframe.mozRequestFullScreen) {
+                            iframe.mozRequestFullScreen();
+                        } else if (iframe.msRequestFullscreen) {
+                            iframe.msRequestFullscreen();
+                        }
+                    }
+
                 };
                 xhr.send();
 
