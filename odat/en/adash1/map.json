@@ -8,6 +8,12 @@
     ],
 
     [
+      0,
+      { },
+      "https://apphrm.github.io/readmore/imgs/h16.png"
+    ],
+
+    [
       1,
       { },
       "https://www.youtube.com/watch?v=Ga6RYejo6Hk",
@@ -16,9 +22,10 @@
 
     [
       2,
-      { },
-      "<p>some html to append in the slide</p>",
-      "900px"
+      {},
+      "<iframe yutbe_src='https://apphrm.github.io/media_shared/odat/vi/adash1/listvideo.html'></iframe>",
+      "100%",
+      "100vh"
     ]
 
   ]
@@ -31,11 +38,16 @@
       {
         "shr": "https://apphrm.github.io/media_shared",
         "jcs": "https://hrm.dnd.vn",
-        "fnc": "hellodat.dnd.vn"
+        "fnc": "hellodat.pages.dev"
       },
       {
-        "mnu": "JS_nhapxuat",
-        "arg": {}
+        "mnu": "JS_payrollonline",
+        "arg": {
+          "f": "1",
+          "s": 2,
+          "demo": "1",
+          "att": "https://hellohrm.github.io/utils/media/utils/adminlog1.dat"
+        }
       }
     ]
   ]
