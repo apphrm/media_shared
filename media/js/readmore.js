@@ -84,7 +84,7 @@
                 if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 2) {
                     if (!window.yutbe_list) {
                         window.yutbe_list = 1;
-                        alert("you're at the bottom of the page");
+                        //alert("you're at the bottom of the page");
                         //
                         //
                         var div = document.createElement('div');
