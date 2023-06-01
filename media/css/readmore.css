@@ -1,1 +1,141 @@
+ .template-card {
+            transition: .3s ease-in-out;
+            height: 100%;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+            border: 1px solid #eee
+        }
 
+            .template-card picture {
+                width: 100%;
+                overflow: hidden
+            }
+
+        @media (min-width: 1200px) {
+            .template-card picture {
+                width: 380px
+            }
+        }
+
+        .template-card .details {
+            padding: 40px;
+            border-left: 1px solid #eee
+        }
+
+        @media (max-width: 1200px) {
+            .template-card .details {
+                padding: 30px;
+                border-top: 1px solid #eee;
+                border-left: 0
+            }
+        }
+
+         .template-card h2 {
+            margin: 0;
+            padding: 0 0 25px 0;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: Poppins,sans-serif
+        }
+
+        .template-card h2 a {
+                color: #035195
+            }
+
+        /*  .template-card h2 a::after {
+                    position: absolute;
+                    inset: 0;
+                    z-index: 1;
+                    content: ""
+                }*/
+
+        .template-card p {
+            color: #555;
+            margin: 0 0 25px 0;
+            overflow: hidden
+        }
+
+        .template-card .buttons {
+            position: relative;
+            z-index: 2
+        }
+
+        @media (max-width: 1200px) {
+            .template-card .buttons {
+                text-align: center
+            }
+        }
+
+        .template-card .buttons a {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 30px;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: .3px;
+            border-radius: 4px;
+            color: #023b6d;
+            transition: all .3s;
+            flex-grow: 1;
+            flex-basis: auto;
+            justify-content: center;
+            border: 1px solid #cfd4e4
+        }
+
+            .template-card .buttons a:hover {
+                border-color: #009bd9;
+                color: #009bd9
+            }
+
+            .template-card .buttons a.download {
+                margin-left: 12px
+            }
+
+        @media (max-width: 575px) {
+            .template-card .buttons a {
+                font-size: 14px;
+                padding: 8px 22px
+            }
+        }
+
+        .template-card:hover {
+            box-shadow: 0 0 40px rgba(2,59,109,.1)
+        }
+
+            .template-card:hover h2 a {
+                color: #009bd9
+            }
+
+        .iframe-wrapper, .iframe-fullscreen {
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+            -webkit-overflow-scrolling: touch;
+            min-height: 500px;
+        }
+
+            .iframe-fullscreen > iframe {
+                width: 100%;
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                border: 0px;
+                height: 100%;
+                right: 0px;
+                left: 0px;
+            }
+
+            .iframe-wrapper > iframe {
+                width: 100%;
+                height: 1000px;
+                position: relative;
+                top: 0px;
+                bottom: 0px;
+                border: 0px;
+            }
