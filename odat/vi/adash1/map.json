@@ -16,9 +16,10 @@
 
     [
       2,
-      { },
-      "<p>some html to append in the slide</p>",
-      "900px"
+      {},
+      "<iframe src='https://apphrm.github.io/media_shared/odat/vi/adash1/listvideo.html' title='W3Schools Free Online Web Tutorials'></iframe>",
+      "100%",
+      "100vh"
     ]
 
   ]
