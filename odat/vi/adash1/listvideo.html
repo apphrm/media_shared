@@ -88,6 +88,7 @@
             border-radius: 3px;
             flex-direction: column;
             background: var(--primary);
+            height: 100%;
         }
 
         .li-collapsed {
@@ -192,6 +193,7 @@
                 margin-top: var(--s-pad);
             }
 
+
         @media only screen and (max-width: 1150px) {
             #playlist {
                 width: 95vw;
@@ -216,19 +218,24 @@
             }
         }
 
-        @media only screen and (max-width: 800px) {
+        /*        @media only screen and (max-width: 800px) {
             #playlist {
                 width: 60vw;
             }
-        }
+        }*/
 
-        @media only screen and (max-width: 650px) {
+        @media only screen and (max-width: 800px) {
             #playlist {
-                width: 80vw;
+                width: 95vw;
+                top: 10px;
+            }
+
+            .mb {
+                display: block !important;
             }
         }
+        
     </style>
-
 
 
 </head>
@@ -329,12 +336,14 @@
             </div>
 
         </div>
+        
+        <div style="height:20px"></div>
+
     </div>
 
 
 
-    <script id="rendered-js">
-        /*
+    <script id="rendered-js">/*
             Every single line of code is pure JavaScript.
             I've provided comments for some important parts of the code
 
@@ -443,8 +452,7 @@
                 toggle_list();
             });
         });
-//# sourceURL=pen.js
-    </script>
+//# sourceURL=pen.js</script>
 
 
 </body>
