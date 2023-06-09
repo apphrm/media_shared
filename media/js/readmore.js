@@ -88,7 +88,7 @@
                 //
 
                 var xhr = new XMLHttpRequest();
-                xhr.open('GET', 'listvideo.html', true);
+                xhr.open('GET',(window.lstURI ||'') + 'listvideo.html', true);
                 xhr.onreadystatechange = function () {
 
                     if (this.readyState !== 4) return;
