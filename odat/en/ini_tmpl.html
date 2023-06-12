@@ -171,14 +171,17 @@
         <div class="container content">
             <div data-aos="fade-up">
 
-                <h4 class="text-center">Màn hình chức năng quản lý Ca kíp và các thông số quy ước dùng để Tính công. Đáp ứng được tất cả các loại hinh Ca kíp đang vận hành thực tế.</h4>
+                <h4 class="text-center">
+                    Screen of shift management function and conventional parameters used to calculate work. Adapting all types of actual shift.
+                </h4>
 
                 <div class="shape mb-4"></div>
 
                 <p class="fst-italic">
-                    Cùng ngần ấy thời gian kinh nghiệm, thăng trầm qua nhiều mô hình doanh nghiệp, từ chuẩn 3 ca 7 kíp, làm 12 nghỉ 24, ca phục vụ của F&B, ca bán hàng ở trung tâm thương mại ...
-                    Chúng tôi đút kết ra một công thức chung để phần mềm có thể hiểu và tính toán chuẩn xác ngay cả khi doanh nghiệp áp dụng đồng thời nhiều dạng ca kíp khác nhau
-                    (điều này cũng coi như mặc định vì có trong doanh nhiệp có Sếp không chấm công, nhân viên văn phòng thì làm 8h hành chánh, Bảo vệ làm 12 nghỉ 24, công nhân thì 3 ca xoay vòng ...)
+                    Spending many years of experience in the field with many business models, from standard 3 shifts, 7 crews, working 12 hours off 24 hours
+                    , F&B service shifts, sales shifts at shopping centers... 
+                    We conclude with a common formula so that the software can understand and calculate correctly even when the enterprise applies many different types of shifts at the same time (this is also considered the default because there are bosses in the business who do not have timekeeping
+                    , Office workerswork 8 hours of administration, security guards work 12 days off, workers have 3 rotating shifts...)
                 </p>
             </div>
 
@@ -187,36 +190,33 @@
 
             <ul>
                 <li data-aos="fade-left" data-aos-delay="100">
-                    <span class="dungthu highlight">Khoảng thời gian làm việc trong ngày:</span> Doanh nghiệp bố trí nhân lực đủ vận hành trong 1 ngày
-                    → nguồn gốc của Ca kíp từ đây mà ra. Vì thế phần mềm sẽ quản lý toàn bộ các khung giờ làm việc được thống kê theo nhóm ví dụ nôm na dễ hiểu như "Khung giờ làm việc hành chánh - Giờ làm hành chánh - Giờ hành chánh - HC"
-
+                    <span class="dungthu highlight">In-Out perious within day:</span> Enterprises arrange human resources to be active in 1 day
+                    → Shift concept comes from here. Therefore, the software will manage all working hours, which are statistically grouped, such as "Administrative working hours - Office hours - Office hours – HC"
                 </li>
                 <li data-aos="fade-left" data-aos-delay="200">
-                    <span class="dungthu highlight">⏱ giờ Vào - giờ Ra quy định:</span> Là mốc thời gian ấn định khi Vào là phải trước mốc giờ vào quy định (5 phút chẳng hạn), và Ra về phải sau mốc giờ ra bắt buộc.
-                    Quy định là vậy nhưng làm sao đảm bảo tất cả nhân viên điều tuân thủ quy định này? nhắc nhở chỉ làm tình hình ngày càng mất kiểm soát, thôi thì đặt 1 thiết bị chấm công để xác nhận thời điểm nhân viên quẹt vào thiết bị.
-                    Lúc này người lao động tốt nhất là trung thực với thiết bị điểm danh, vì nó công bằng và không thiên vị.
-
+                    <span class="dungthu highlight">⏱ Checkin - Checkout time point:</span> It is a fixed point of time when In must be before the specified entry time (5 minutes for example), and Out must be after the required departure time. That's the regulation, but how to ensure all employees to comply with this regulation? Reminders only make the situation more and more out of control, 
+                    just put a timekeeping device to confirm when the employee swipes on the device. 
+                    At this time, it is best for workers to be honest with the attendance device, because it is fair and unbiased.
                 </li>
                 <li data-aos="fade-left" data-aos-delay="300">
-                    <span class="text-nowrap mark cor mx-1">⏱ Thời điểm bắt đầu tính giờ Vào:</span> Ví dụ giờ Hành chánh quy định vào 8:00 thì dự trù nhân viên sớm nhất có mặt lúc 6:00
-                    (có thể nới rộng hay co hẹp lại mốc 6:00 tùy theo tình nhu cầu thực tế doanh nghiệp sử dụng chính sách làm thêm giờ trước Vào...)
-                    → nhân viên quẹt thẻ trước thời điểm quy định này sẽ không được Phần mềm tính là giờ Vào của giờ làm việc Hành chánh.
+                    <span class="text-nowrap mark cor mx-1">⏱ Time to start recording In:</span> For example, when the office hour is set at 8:00, it is estimated that the earliest employee will be there at 6:00
+                    (the 6:00 mark can be expanded or narrowed depending on the needs of the staff. In fact, enterprises use overtime policy before In...)
+                    → employees who swipe their cards before this specified time will not be recorded by the Software as In of administrative working hours.
                 </li>
 
                 <li data-aos="fade-left" data-aos-delay="400">
-                    <span class="text-nowrap mark cor mx-1">⏱ Thời điểm hết giờ vào hợp lệ:</span> Mốc thời gian dự phòng để nhân viên không bị phần mềm tính vào Trễ vì giờ Vào quy định là Nội quy - Chính sách - Luật nội bộ, nhưng thực tế nhân viên đến đúng giờ nhưng gặp thời tiết mưa bão hay có sự cố gì đó làm trễ 1 vài phút
-                    (thường mốc này trễ hơn giờ vào 05 phút)
+                    <span class="text-nowrap mark cor mx-1">⏱ Valid Check-In Delay time:</span> It's useful for employee is not counted late by the software because the specified time-in is the Rules - Policy - Internal law, but the employee actually arrived on time but facing with stormy weather or something that delays a few minutes 
+                    (usually this mark is 5 minutes later)
                 </li>
 
                 <li data-aos="fade-left" data-aos-delay="500">
-                    <span class="text-nowrap mark cor mx-1">⏱ Vào trễ:</span> Vào sau mốc thời gian quy định được phép, Phần mềm chẳng những trừ số thời gian trễ vào công làm mà còn hạch toán qua nội quy để tính số lần vi phạm nội quy chấm công (có thể nộp đơn giải trình bằng luồng Nộp - Duyệt)
-
+                    <span class="text-nowrap mark cor mx-1">⏱ Late entry:</span> After the specified time limit is allowed, the Software not only subtracts attendance time but also late to work, but also but also accounting through the rules to calculate the number of times of violation of the timekeeping rules
+                    (can submit an explanationby via Submit-Approval flow)
                 </li>
                 <li data-aos="fade-left" data-aos-delay="600">
-
-                    <span class="text-nowrap mark cor mx-1">⏱ Hết giờ Vào:</span> Quy định mốc thời gian trễ tối đa được phép Vào ví dụ ca Hành chánh bắt đầu vào 8:00 chỉ được tính trễ tối đa đến 10:00. Nếu có lý do chính đáng thì nhân viên
-                    có thể gởi đơn giải trình lý do qua luồng Nộp - Duyệt để bổ sung hợp lệ giờ Vào. Sau thời điểm này Phần mềm tạm phục vụ cho giờ làm việc này và dành hiệu suất để xử lý các tác vụ khác ...
-
+                    <span class="text-nowrap mark cor mx-1">⏱ Checkin expired:</span> Specify the maximum allowed delay time. For example, an Administrative shift that starts at 8:00 will only be counted late until 10:00. 
+                    If there is a valid reason, the employee may submit a written explanation through the Submit-Approval flow to add valid Entry hours. 
+                    After this time the Software temporarily serves this working hour and dedicates its performance to other tasks ...
                 </li>
 
             </ul>
@@ -224,23 +224,21 @@
             <ul>
 
                 <li data-aos="fade-up" data-aos-delay="700">
-                    <span class="text-nowrap mark cop mx-1">⏱ Bắt đầu tính giờ ra:</span> Thời điểm Phần mềm nối lại hoạt động sau thời gian tạm nghỉ tử lúc hết giờ vào và sẳn sàng kiểm thẻ cho giờ Ra.
+                    <span class="text-nowrap mark cop mx-1">⏱ Begin Checkout:</span> The time when the Software resumes operation after the pause time at the end of the in time and is ready to check the card for the Out time
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="800">
-                    <span class="text-nowrap mark cop mx-1">⏱ Về sớm:</span> Là lỗi vi phạm ra về trước thời gian quy định được phép ra về. Nhân viên sẽ bị trừ Công và cũng được sưu tập lại làm tham khảo khi đánh giá thưởng, thăng tiến.
-                    Dùng luồng Nộp - Duyệt trình bày lý do chính đáng để không mất Công cũng như tránh điểm Xấu khi có đánh giá về sau.
+                    <span class="text-nowrap mark cop mx-1">⏱ Leaving early:</span> A violation of leaving before the specified time is allowed to leave. Employees will be deducted public and also collected as reference when evaluating bonuses and promotions. 
+                    Use the Submit-Approval flow to present a good reason to not lose effort and avoid Bad grades in future reviews.
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="900">
-                    <span class="text-nowrap mark cop mx-1">⏱ Mốc thời gian ra về hợp lệ:</span> Là thời điểm sớm hơn giờ vào, vì một vài nguyên nhân khách quan như giờ tan ca đông, xe đưa đón nhân viên ... Doanh nghiệp sẽ cho phép nhân viên ra về sớm hơn quy định 5 phút.
-                    Nếu giờ này trùng với giờ Ra quy định thì cũng được.
-
+                    <span class="text-nowrap mark cop mx-1">⏱ Valid Check-Out Soon time:</span> It is earlier than the Checkout, due to some objective reasons such as the time of the end of the shift, the staff shuttle bus, etc. The enterprise will allow employees to leave earlier than 5 minutes as requested. 
+                    If this time coincides with the specified Out time, that's fine
                 </li>
                 <li data-aos="fade-up" data-aos-delay="1000">
 
-                    <span class="text-nowrap mark cop mx-1">⏱ Hết giờ Ra:</span> Là thời điểm tối đa sau giờ ra hợp lệ (thường sau khoảng 02 giờ). Phần mềm sẽ ngưng tính giờ Ra cho khung giờ làm việc này.
-
+                    <span class="text-nowrap mark cop mx-1">⏱ Checkout expired:</span> he maximum time after the Checkout time point (usually after about 02 hours). The software will stop timing Out for this working time frame.
                 </li>
 
             </ul>
@@ -250,19 +248,19 @@
 
                     <img src="assets/img/pngegg-_1_.svg" class="testimonial-img" alt="">
 
-                    <h3>Bố trí Khung Giờ Làm vào các ngày trong tuần </h3>
-                    <h4>bằng cách tick chọn từ thứ hai cho đến chủ nhật, những ngày nào không tick chọn thì phần mềm sẽ hiểu là ngày nghỉ cuối tuần</h4>
+                    <h3>Arrange Working Time Frame on weekdays</h3>
+                    <h4>By ticking from Monday to Sunday, the days that do not tick, the software will understand it as a weekend</h4>
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        bên cạnh còn rất nhiều thông số để thiết lập xử lý tình huống, tinh chỉnh cho phù hợp nhất tùy tình hình, các thiết lập này là kinh nghiệm chúng tôi đút kết được từ thực tiển.
+                        Besides, there are many parameters to set up handling situations, fine-tuning to best suit the situation, these settings are the experience we have gathered from practice.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                 </div>
 
             </div>
             <div class="trichdan2  ml-5 px-2 mb-2 mb-lg-5" data-aos="fade-up" data-aos-delay="600">
-                <cite>Nội quy ngày giờ công là KPI-ZERO, chuẩn bước ZERO sẽ là nền tảng vững chắc cho sự phát triển.</cite>
-                <i>Trải nghiệm <a href='ol.html' target='_blank'>Ngay &amp; Luôn</a></i>
+                <cite>Workday and time regulations are KPI-ZERO, ZERO standard will be a solid foundation for Empterprise Growth-up.</cite>
+                <i>Mr. <a href='ol.html' target='_blank'>Now &amp; Then</a></i>
             </div>
 
         </div>
