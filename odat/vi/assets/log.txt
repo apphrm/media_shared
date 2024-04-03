@@ -1,0 +1,2 @@
+hôm nay ngày 3/4/2024
+đổi tên demo1.dat thành demo1_backup để phòng hờ file mới đổi bị lỗi thì restore
